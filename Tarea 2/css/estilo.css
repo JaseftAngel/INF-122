@@ -1,0 +1,175 @@
+.principal {
+    background-color: #7b7c7a;
+    width: 1000px;
+    height: 800px;
+    position: relative;
+}
+.h1 {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: block;
+
+}
+.oso {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    top: 200px;
+    left: 375px;
+}
+
+.oreja1{
+top: 0;
+left: 20px;
+position: absolute;
+width: 75px;
+height: 60px;
+background-color: #0c0b0e;
+border-radius: 50%;
+}
+
+.oreja2 {
+    top: 0;
+    right: 20px;
+    position: absolute;
+    width: 75px;
+    height: 60px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+}
+
+.cabeza {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+    top: 30px;
+    left: 55px;
+}
+
+.ojo1 {
+    top: 65px;
+    left: 70px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ojo2 {
+    top: 65px;
+    right: 80px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nariz {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 95px;
+    left: 100px;
+}
+
+.boca {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-bottom: 5px solid rgb(197, 101, 101);
+    border-radius: 0 0 50px 50px;
+    top: 115px;
+    left: 97px;
+}
+
+.cuerpo {
+    position: absolute;
+    width: 160px;
+    height: 205px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+    top: 150px;
+    left: 45px;
+}
+
+
+.mano1 {
+    top: 170px;
+    left: -30px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+}
+
+.mano2 {
+    top: 170px;
+    right: -30px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+}
+
+.barriga {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    top: 190px;
+    left: 85px;
+}
+
+.pie1 {
+    top: 330px;
+    left: 50px;
+    position: absolute;
+    width: 60px;
+    height: 110px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+}
+
+.pie2 {
+    top: 330px;
+    right: 50px;
+    position: absolute;
+    width: 60px;
+    height: 110px;
+    background-color: #0c0b0e;
+    border-radius: 50%;
+}
+
+p {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
