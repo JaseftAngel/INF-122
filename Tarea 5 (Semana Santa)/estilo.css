@@ -1,0 +1,52 @@
+
+.container-fluid{
+    background-color: rgb(22, 24, 24);
+    display: grid;
+    grid-gap: 7px;
+    position: absolute;
+    grid-template-areas: "titulo    titulo    titulo"
+                         "menu      menu      menu"
+                         "carrusel  carrusel  carrusel"
+                         "realizado realizado realizado";
+}
+.titulo{
+    grid-area: titulo;
+    height: 120px;
+    color: aliceblue;
+    margin: 5px;
+    .Santa{
+        text-align: center;
+        position: fixed;
+        top: 15px;
+        left: 180px;
+        justify-content: center;
+    }
+    
+}
+.menu{
+    grid-area: menu;
+    display: grid;
+    
+}
+.carrusel{
+    
+    height: 415px;
+    grid-area: carrusel;
+}
+.realizado{
+    
+    height: 40px;
+    grid-area: realizado;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.Fond{
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
